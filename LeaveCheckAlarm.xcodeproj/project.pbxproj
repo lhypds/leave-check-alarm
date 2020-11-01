@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA158B3254EB761002DAEC6 /* LeaveCheckAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA158B2254EB761002DAEC6 /* LeaveCheckAlarmApp.swift */; };
+		5AA158B5254EB761002DAEC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA158B4254EB761002DAEC6 /* ContentView.swift */; };
+		5AA158B7254EB762002DAEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA158B6254EB762002DAEC6 /* Assets.xcassets */; };
+		5AA158BA254EB762002DAEC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA158B9254EB762002DAEC6 /* Preview Assets.xcassets */; };
+		5AA158BC254EB762002DAEC6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA158BB254EB762002DAEC6 /* Persistence.swift */; };
+		5AA158BF254EB762002DAEC6 /* LeaveCheckAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AA158BD254EB762002DAEC6 /* LeaveCheckAlarm.xcdatamodeld */; };
+		5AA158CA254EB762002DAEC6 /* LeaveCheckAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA158C9254EB762002DAEC6 /* LeaveCheckAlarmTests.swift */; };
+		5AA158D5254EB762002DAEC6 /* LeaveCheckAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA158D4254EB762002DAEC6 /* LeaveCheckAlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AA158C6254EB762002DAEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA158A7254EB761002DAEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA158AE254EB761002DAEC6;
+			remoteInfo = LeaveCheckAlarm;
+		};
+		5AA158D1254EB762002DAEC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA158A7254EB761002DAEC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA158AE254EB761002DAEC6;
+			remoteInfo = LeaveCheckAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AA158AF254EB761002DAEC6 /* LeaveCheckAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaveCheckAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA158B2254EB761002DAEC6 /* LeaveCheckAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveCheckAlarmApp.swift; sourceTree = "<group>"; };
+		5AA158B4254EB761002DAEC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AA158B6254EB762002DAEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA158B9254EB762002DAEC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AA158BB254EB762002DAEC6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5AA158BE254EB762002DAEC6 /* LeaveCheckAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeaveCheckAlarm.xcdatamodel; sourceTree = "<group>"; };
+		5AA158C0254EB762002DAEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA158C5254EB762002DAEC6 /* LeaveCheckAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeaveCheckAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA158C9254EB762002DAEC6 /* LeaveCheckAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveCheckAlarmTests.swift; sourceTree = "<group>"; };
+		5AA158CB254EB762002DAEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA158D0254EB762002DAEC6 /* LeaveCheckAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeaveCheckAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA158D4254EB762002DAEC6 /* LeaveCheckAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveCheckAlarmUITests.swift; sourceTree = "<group>"; };
+		5AA158D6254EB762002DAEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA158AC254EB761002DAEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA158C2254EB762002DAEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA158CD254EB762002DAEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA158A6254EB761002DAEC6 = {
+			isa = PBXGroup;
+			children = (
+				5AA158B1254EB761002DAEC6 /* LeaveCheckAlarm */,
+				5AA158C8254EB762002DAEC6 /* LeaveCheckAlarmTests */,
+				5AA158D3254EB762002DAEC6 /* LeaveCheckAlarmUITests */,
+				5AA158B0254EB761002DAEC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA158B0254EB761002DAEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA158AF254EB761002DAEC6 /* LeaveCheckAlarm.app */,
+				5AA158C5254EB762002DAEC6 /* LeaveCheckAlarmTests.xctest */,
+				5AA158D0254EB762002DAEC6 /* LeaveCheckAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA158B1254EB761002DAEC6 /* LeaveCheckAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				5AA158B2254EB761002DAEC6 /* LeaveCheckAlarmApp.swift */,
+				5AA158B4254EB761002DAEC6 /* ContentView.swift */,
+				5AA158B6254EB762002DAEC6 /* Assets.xcassets */,
+				5AA158BB254EB762002DAEC6 /* Persistence.swift */,
+				5AA158C0254EB762002DAEC6 /* Info.plist */,
+				5AA158BD254EB762002DAEC6 /* LeaveCheckAlarm.xcdatamodeld */,
+				5AA158B8254EB762002DAEC6 /* Preview Content */,
+			);
+			path = LeaveCheckAlarm;
+			sourceTree = "<group>";
+		};
+		5AA158B8254EB762002DAEC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AA158B9254EB762002DAEC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AA158C8254EB762002DAEC6 /* LeaveCheckAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA158C9254EB762002DAEC6 /* LeaveCheckAlarmTests.swift */,
+				5AA158CB254EB762002DAEC6 /* Info.plist */,
+			);
+			path = LeaveCheckAlarmTests;
+			sourceTree = "<group>";
+		};
+		5AA158D3254EB762002DAEC6 /* LeaveCheckAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA158D4254EB762002DAEC6 /* LeaveCheckAlarmUITests.swift */,
+				5AA158D6254EB762002DAEC6 /* Info.plist */,
+			);
+			path = LeaveCheckAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA158AE254EB761002DAEC6 /* LeaveCheckAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA158D9254EB762002DAEC6 /* Build configuration list for PBXNativeTarget "LeaveCheckAlarm" */;
+			buildPhases = (
+				5AA158AB254EB761002DAEC6 /* Sources */,
+				5AA158AC254EB761002DAEC6 /* Frameworks */,
+				5AA158AD254EB761002DAEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeaveCheckAlarm;
+			productName = LeaveCheckAlarm;
+			productReference = 5AA158AF254EB761002DAEC6 /* LeaveCheckAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AA158C4254EB762002DAEC6 /* LeaveCheckAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA158DC254EB762002DAEC6 /* Build configuration list for PBXNativeTarget "LeaveCheckAlarmTests" */;
+			buildPhases = (
+				5AA158C1254EB762002DAEC6 /* Sources */,
+				5AA158C2254EB762002DAEC6 /* Frameworks */,
+				5AA158C3254EB762002DAEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA158C7254EB762002DAEC6 /* PBXTargetDependency */,
+			);
+			name = LeaveCheckAlarmTests;
+			productName = LeaveCheckAlarmTests;
+			productReference = 5AA158C5254EB762002DAEC6 /* LeaveCheckAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AA158CF254EB762002DAEC6 /* LeaveCheckAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA158DF254EB762002DAEC6 /* Build configuration list for PBXNativeTarget "LeaveCheckAlarmUITests" */;
+			buildPhases = (
+				5AA158CC254EB762002DAEC6 /* Sources */,
+				5AA158CD254EB762002DAEC6 /* Frameworks */,
+				5AA158CE254EB762002DAEC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA158D2254EB762002DAEC6 /* PBXTargetDependency */,
+			);
+			name = LeaveCheckAlarmUITests;
+			productName = LeaveCheckAlarmUITests;
+			productReference = 5AA158D0254EB762002DAEC6 /* LeaveCheckAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA158A7254EB761002DAEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					5AA158AE254EB761002DAEC6 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					5AA158C4254EB762002DAEC6 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5AA158AE254EB761002DAEC6;
+					};
+					5AA158CF254EB762002DAEC6 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5AA158AE254EB761002DAEC6;
+					};
+				};
+			};
+			buildConfigurationList = 5AA158AA254EB761002DAEC6 /* Build configuration list for PBXProject "LeaveCheckAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA158A6254EB761002DAEC6;
+			productRefGroup = 5AA158B0254EB761002DAEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA158AE254EB761002DAEC6 /* LeaveCheckAlarm */,
+				5AA158C4254EB762002DAEC6 /* LeaveCheckAlarmTests */,
+				5AA158CF254EB762002DAEC6 /* LeaveCheckAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA158AD254EB761002DAEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA158BA254EB762002DAEC6 /* Preview Assets.xcassets in Resources */,
+				5AA158B7254EB762002DAEC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA158C3254EB762002DAEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA158CE254EB762002DAEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA158AB254EB761002DAEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA158BF254EB762002DAEC6 /* LeaveCheckAlarm.xcdatamodeld in Sources */,
+				5AA158BC254EB762002DAEC6 /* Persistence.swift in Sources */,
+				5AA158B5254EB761002DAEC6 /* ContentView.swift in Sources */,
+				5AA158B3254EB761002DAEC6 /* LeaveCheckAlarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA158C1254EB762002DAEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA158CA254EB762002DAEC6 /* LeaveCheckAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA158CC254EB762002DAEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA158D5254EB762002DAEC6 /* LeaveCheckAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA158C7254EB762002DAEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA158AE254EB761002DAEC6 /* LeaveCheckAlarm */;
+			targetProxy = 5AA158C6254EB762002DAEC6 /* PBXContainerItemProxy */;
+		};
+		5AA158D2254EB762002DAEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA158AE254EB761002DAEC6 /* LeaveCheckAlarm */;
+			targetProxy = 5AA158D1254EB762002DAEC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AA158D7254EB762002DAEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA158D8254EB762002DAEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA158DA254EB762002DAEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LeaveCheckAlarm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LeaveCheckAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gochaichai.LeaveCheckAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA158DB254EB762002DAEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LeaveCheckAlarm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LeaveCheckAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gochaichai.LeaveCheckAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AA158DD254EB762002DAEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeaveCheckAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gochaichai.LeaveCheckAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeaveCheckAlarm.app/LeaveCheckAlarm";
+			};
+			name = Debug;
+		};
+		5AA158DE254EB762002DAEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeaveCheckAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gochaichai.LeaveCheckAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeaveCheckAlarm.app/LeaveCheckAlarm";
+			};
+			name = Release;
+		};
+		5AA158E0254EB762002DAEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeaveCheckAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gochaichai.LeaveCheckAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeaveCheckAlarm;
+			};
+			name = Debug;
+		};
+		5AA158E1254EB762002DAEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeaveCheckAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gochaichai.LeaveCheckAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeaveCheckAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA158AA254EB761002DAEC6 /* Build configuration list for PBXProject "LeaveCheckAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA158D7254EB762002DAEC6 /* Debug */,
+				5AA158D8254EB762002DAEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA158D9254EB762002DAEC6 /* Build configuration list for PBXNativeTarget "LeaveCheckAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA158DA254EB762002DAEC6 /* Debug */,
+				5AA158DB254EB762002DAEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA158DC254EB762002DAEC6 /* Build configuration list for PBXNativeTarget "LeaveCheckAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA158DD254EB762002DAEC6 /* Debug */,
+				5AA158DE254EB762002DAEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA158DF254EB762002DAEC6 /* Build configuration list for PBXNativeTarget "LeaveCheckAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA158E0254EB762002DAEC6 /* Debug */,
+				5AA158E1254EB762002DAEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AA158BD254EB762002DAEC6 /* LeaveCheckAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AA158BE254EB762002DAEC6 /* LeaveCheckAlarm.xcdatamodel */,
+			);
+			currentVersion = 5AA158BE254EB762002DAEC6 /* LeaveCheckAlarm.xcdatamodel */;
+			path = LeaveCheckAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5AA158A7254EB761002DAEC6 /* Project object */;
+}
